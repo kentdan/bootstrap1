@@ -20,7 +20,7 @@
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
-            </button>  
+            </button>
            <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="41"></a>
            <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav">
@@ -28,8 +28,8 @@
                     <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
                     <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
-                </ul>   
-            </div>         
+                </ul>
+            </div>
         </div>
     </nav>
     <header class="jumbotron">
@@ -109,61 +109,50 @@
                 </div>
             </div>
         </div>
-        <div class="row row-content align-items-center justify-content-center" id="reservationDiv">
-            <div class="col-12 col-sm-8">
-                <div class="card">
-                    <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
-                    <div class="card-body">
-                        <form>
-                            <div class="form-group row">
-                                <label for="guests" class="col-12 col-sm-12 col-md-2 col-form-label">Number of Guests</label>
-                                <div class="form-check col-12 col-sm-12 col-md-8">
-                                    <label class="custom-control custom-radio">
-                                        <input type="radio" class="custom-control-input" id="guest1" name="guests" value="">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">1</span>
-                                    </label>
-                                    <label class="custom-control custom-radio">
-                                        <input type="radio" class="custom-control-input" id="guest2" name="guests" value="">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">2</span>
-                                    </label>
-                                    <label class="custom-control custom-radio">
-                                        <input type="radio" class="custom-control-input" id="guest3" name="guests" value="">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">3</span>
-                                    </label>
-                                    <label class="custom-control custom-radio">
-                                        <input type="radio" class="custom-control-input" id="guest4" name="guests" value="">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">4</span>
-                                    </label>
-                                    <label class="custom-control custom-radio">
-                                        <input type="radio" class="custom-control-input" id="guest5" name="guests" value="">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">5</span>
-                                    </label>
-                                    <label class="custom-control custom-radio">
-                                        <input type="radio" class="custom-control-input" id="guest6" name="guests" value="">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">6</span>
-                                    </label>
-                                </div>
-                            </div>
+				<div class="row row-content justify-content-center">
+	            <div class="col col-sm-8 align-self-center">
+	                <div class="card">
+	                    <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+	                    <div class="card-block">
+												 <form id="reservetable">
+													 <div class="form-group row align-items-center">
+														 <label class="col-12 col-sm-2 col-form-label">Number of Guest</label>
+														 <div class="form-check form-check-inline col-12 col-sm">
+															 <label class="form-check-label">
+																 <input type="radio" class="form-check-input" id="numberofguest1" name="numberofguest" value="1"> 1
+															 </label>
+															 <label class="form-check-label">
+																 <input type="radio" class="form-check-input" id="numberofguest2" name="numberofguest" value="2"> 2
+															 </label>
+															 <label class="form-check-label">
+																 <input type="radio" class="form-check-input" id="numberofguest3" name="numberofguest" value="2"> 3
+															 </label>
+															 <label class="form-check-label">
+																 <input type="radio" class="form-check-input" id="numberofguest4" name="numberofguest" value="2"> 4
+															 </label>
+															 <label class="form-check-label">
+																 <input type="radio" class="form-check-input" id="numberofguest5" name="numberofguest" value="2"> 5
+															 </label>
+															 <label class="form-check-label">
+																 <input type="radio" class="form-check-input" id="numberofguest6" name="numberofguest" value="2"> 6
+															 </label>
+														 </div>
+													 </div>
+
                             <div class="form-group row">
                                 <label for="date" class="col-12 col-sm-12 col-md-2 col-form-label">Date and Time</label>
                                 <div class="col-12 col-sm-12 col-md-4">
                                     <div class="input-group">
                                         <div class="input-group-addon">
-                                            <i class="fa fa-calendar"></i>                                            
+                                            <i class="fa fa-calendar"></i>
                                         </div>
                                         <input type="date" class="form-control" id="date" name="date" placeholder="Date">
-                                    </div>                                   
+                                    </div>
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-4">
                                     <div class="input-group">
                                         <div class="input-group-addon">
-                                            <i class="fa fa-clock-o"></i>                                            
+                                            <i class="fa fa-clock-o"></i>
                                         </div>
                                         <input type="time" class="form-control" id="time" name="time" placeholder="Time">
                                     </div>
@@ -179,11 +168,11 @@
                 </div>
             </div>
         </div>
-    </div>    
+    </div>
 
     <footer class="footer">
         <div class="container">
-            <div class="row">             
+            <div class="row">
                 <div class="col-5 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
@@ -193,7 +182,7 @@
                         <li><a href="./contactus.html">Contact</a></li>
                     </ul>
                 </div>
-                <div class="col-6 col-sm-5"> 
+                <div class="col-6 col-sm-5">
                     <h5>Our Address</h5>
                     <address>
 		              121, Clear Water Bay Road<br>
@@ -201,7 +190,7 @@
 		              HONG KONG<br>
                       <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
                       <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
-                      <i class="fa fa-envelope fa-lg"></i>: 
+                      <i class="fa fa-envelope fa-lg"></i>:
                       <a href="mailto:confusion@food.net">confusion@food.net</a>
 		           </address>
                 </div>
@@ -216,7 +205,7 @@
                     </div>
                 </div>
            </div>
-           <div class="row justify-content-center">             
+           <div class="row justify-content-center">
                 <div class="col-auto">
                     <p>© Copyright 2015 Ristorante Con Fusion</p>
                 </div>
@@ -228,7 +217,7 @@
     <!-- Bootsrap beta 4 replaced Tether with Popper -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>	
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
 
